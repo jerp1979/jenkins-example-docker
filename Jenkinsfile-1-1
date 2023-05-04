@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    docker { image 'checkmarx/dast' }
+    docker { image 'node:checkmarx/dast' }
   }
   stages {
     stage('Test') {
